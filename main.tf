@@ -27,7 +27,7 @@ resource "azurerm_subnet" "Subnet" {
   address_prefixes     = ["10.0.2.0/24"]
 }
 ################## NIC create  ######################
-
+/*
 resource "azurerm_network_interface" "nic" {
   for_each = { for inst in local.data_set : inst.local_id => inst }
   name                = each.value.nicname
@@ -40,3 +40,4 @@ resource "azurerm_network_interface" "nic" {
     private_ip_address_allocation = "Dynamic"
   }
 }
+*/
