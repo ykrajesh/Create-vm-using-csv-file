@@ -1,0 +1,3 @@
+local_id,name,location,vmname,vnet,subnet
+1,DCTEST1,eastus,Testdc,Testdcvnet,testdcsubnet
+2,DCTEST1,westus,,,
